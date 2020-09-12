@@ -1,0 +1,157 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+main#main section#forms{
+    height: fit-content;
+    background-color: #0099ff;
+    padding: 25px 0px;
+    border-radius: 10px 10px 0px 0px;
+    min-height: 130px;
+}
+
+
+main#main section#forms .formrow{
+    height: 100%;
+    min-height: 80px;
+}
+
+
+main#main section#forms .formrow .inputbox{
+    padding: 10px 0px;
+}
+
+main#main section#forms .formrow .inputbox input{
+    min-width: 200px;
+    margin: 0px 11px;
+    border-radius: 3px;
+    border: none;
+    padding: 0px 5px;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+main#main section#forms .formrow #btnbox{
+    padding: 10px 11px;
+    min-height: 80px;
+}
+
+main#main section#forms .formrow #btnbox button{
+    display: inline-block;
+    outline: none;
+    border: .5px solid #121212;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 12px -4px #151614;
+    padding: 5px;
+
+}
+
+main#main section#forms .formrow #btnbox button:hover{
+    transition: all ease-in-out .3s;
+    box-shadow: inset 0px 0px 10px 0px #151614;
+}
+
+
+
+main#main section#forms .formrow #edirbtnbox{
+    padding: 18px 11px;
+    min-height: 80px;
+}
+
+main#main section#forms .formrow #edirbtnbox button#savechange {
+    display: inline-block;
+    outline: none;
+    border: .5px solid #121212;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 12px -4px #151614;
+    padding: 5px;
+    /* animation: dance-shadow .3s ease 4 ; */
+}
+
+@keyframes dance-shadow{
+    0%{
+        box-shadow: 0px 0px 12px -2px;
+    }
+    50%{
+        box-shadow: 0px 0px 12px 2px;
+    }
+    100%{
+        box-shadow: 0px 0px 12px -2px;
+    }
+}
+
+main#main section#forms .formrow #edirbtnbox button#savechange:hover{
+    transition: all ease-in-out .3s;
+    box-shadow: inset 0px 0px 10px 0px #151614;
+}
+
+
+main#main section#table{
+    height: fit-content;
+    background-color: #5dc2c2;
+    padding: 15px 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main#main section#table #maintable{
+    width: 80%;
+    margin: 0px auto;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+main#main section#table #maintable th{
+    text-align: center;
+} 
+
+
+
+
+button.editbtn {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 4px 0px;
+    outline: none;
+    border: .5px solid #121212;
+    border-radius: 4px;
+    background-color: rgb(139, 158, 70);
+    color: aliceblue;
+    font-size: 14px;
+    box-shadow: 1px 2px 8px -1px #000;
+}
+
+button.deletebtn{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 4px 0px;
+    outline: none;
+    border: .5px solid #121212;
+    border-radius: 4px;
+    background-color: rgb(168, 59, 59);
+    color: aliceblue;
+    font-size: 14px;
+    box-shadow: 1px 2px 8px -1px #000;
+}
+
+
+#thname{
+    width: 40%;
+    
+}
+
+#thfamily{
+    width: 40%;
+    
+}
+
+td{
+    font-size: 20px;
+    padding: 5px;
+
+}
